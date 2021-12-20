@@ -1,0 +1,38 @@
+.user{
+    background-color: rgb(238, 235, 235);
+    width: 20rem;
+    height: 20rem;
+    margin: 12px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px 10px gray;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.user h3{
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.user img{
+    margin-left: 3rem;
+   
+}
+.user ul{
+    margin: 12px;
+    margin-top: 20px;
+}
+.user button{
+    background-color: green;
+    margin-left: 5rem;
+    margin-top: 12px;
+    width: 50px;
+    height: 30px;
+    
+}
+
+.user button:active{
+    background-color: honeydew;
+}
