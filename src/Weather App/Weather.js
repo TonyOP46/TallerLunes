@@ -5,6 +5,8 @@ const Info = () => {
     const [Api, setApi] = useState()
     const [Temp, setTemp] = useState(0, "°C")
     const [isloading, setisloading] = useState(true)
+    const [background, setbackground]=useState()
+
     
     useEffect(()=>{
         setTemp([Math.round(Api?.main.temp - 273.15), "°C"])
