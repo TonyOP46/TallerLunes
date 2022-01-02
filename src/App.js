@@ -1,11 +1,11 @@
 import './App.css'
-import Quotebox from './Taller/Quotebox'
+import Info from './Weather App/Weather';
 function App() {
   
   return (
-    <div id="principio">
-      <Quotebox/>
-    </div>
+    <>
+    <Info/>
+    </>
 
   );
   
